@@ -5,6 +5,9 @@ A function that takes two parameters
 1. list 
 2. item to search in the list
 returns the index of item to be searched
+
+The running time for this algorithm is log2 n
+
 """
 import math
 def binarySearch(arrayList, item):
