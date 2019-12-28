@@ -1,3 +1,5 @@
+import random
+
 def smallestValue(arr):
     smallest = arr[0]
     smallest_index = 0
@@ -13,5 +15,6 @@ def selection_sort(arr):
         smallest = smallestValue(arr)
         newArr.append(arr.pop(smallest))
     return newArr
+
 
 print(selection_sort([54,41,23,98,21,12]))
